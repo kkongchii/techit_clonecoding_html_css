@@ -1,0 +1,252 @@
+body{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+hr{
+    text-align: center;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.container{
+    width: 100%;
+    margin: 0px auto;
+    position: relative;
+}
+
+nav{
+    height: 20px;
+    line-height: 20px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.nav-logo{
+    width: 100px;
+    height: 30px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.nav-menu{
+    margin-top: 10px;
+    /* font-size: 20px;
+    float: left; */
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    word-spacing: -2px;
+}
+
+.nav-btn{
+    list-style-type: none;
+    margin: 0px;
+}
+
+ul.nav-btn >li{
+    float: left;
+    text-align: center;
+    margin-right: 35px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.profile{
+    position: relative;
+    float: right;
+    width: 30px;
+    height: 30px;
+    top: -25px;
+    right: 40px;
+}
+
+.myclassroom{
+    position: relative;
+    float: right;
+    top: -20px;
+    right: 170px;
+    font-weight: bold;
+}
+
+.summary{
+    margin-top: 80px;
+    margin-left: 90px;
+    color: #E67800;
+    font-weight: bold;
+    word-spacing: -2px;
+}
+
+.maintext{
+    margin: 15px 90px;
+    font-size: 25px;
+    font-weight: bold;
+    word-spacing: -2px;
+}
+
+.subtext{
+    margin-bottom: 40px;
+    margin-left: 90px;
+    color: #989189;
+    word-spacing: -2px;
+}
+
+.course{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 50px 90px;
+    gap: 20px;
+}
+
+.detailschool{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 291px;
+    word-break: keep-all;
+    gap: 10px;
+}
+
+.schoolimg{
+    width: 290px;
+    height: 220px;
+}
+
+.deadline{
+    width: fit-content;
+    border: 1px solid #414ED8;
+    border-radius: 5px;
+    margin: 5px 0px;
+    text-align: center;
+    color: #414ED8;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 12px;
+}
+
+.schoolname{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.schooltext{
+    font-size: 16px;
+}
+
+.period{
+    color: #989189;
+    font-size: 15px;
+}
+
+.pre-notification{
+    background-color: #F0F4FA;
+    height: 200px;
+}
+
+.notification_text{
+    margin: 0px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: -10px;
+    font-weight: bold;
+}
+
+.notification_main{
+    font-size: 20px;
+    margin: 20px 0px;
+}
+
+.notification_img{
+    position: relative;
+    float: right;
+    right: 200px;
+    width: 200px;
+    height: 200px;
+}
+
+.detailcourse{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.course_inner{
+    position: relative;
+    top: -300px;
+}
+
+.courseimg{
+    width: 600px;
+    height: 300px;
+}
+
+.sitemap{
+    margin: 20px 90px;
+    width: 80%;
+    height: 220px;
+    font-weight: bold;
+    word-spacing: -5px;
+    font-size: 14px;
+}
+
+.likelionimg{
+    width: 150px;
+    height: 60px;
+    float: left;
+}
+
+.undermenu{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: -20px;
+}
+.undermenu > p{
+    margin: 7px 30px;
+}
+
+#menutitle{
+    color: #989189;
+    font-size: 12px;
+}
+
+.information{
+    width: 80%;
+    border-top: 1px solid black;
+    margin: 0px 90px;
+}
+
+.sns{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.snsbtn{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.copyright{
+    font-size: 12px;
+    font-weight: bold;
+}
